@@ -42,7 +42,7 @@ post_class: post-template
 
 			<!-- Post Featured Image -->
 			{% if page.image %}
-			<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }} {{ page.image }}{% endif %}" alt="{{ page.title }}" align="middle">
+			<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}" align="middle">
 				{% if page.caption %}
 				<p><i>{{ page.caption | markdownify }}</i></p>	
 				{% endif %}
