@@ -18,5 +18,7 @@ Additionally, you need to install:
 3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
 4. Make necessary changes, commit, push and open a pull request on GitHub.
 
+You can add a pre-commit hook to build the Jekyll website (hook is in `hooks/`).
+
 ## License
 See `LICENSE.md` for more info.
