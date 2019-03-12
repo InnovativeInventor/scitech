@@ -1,3 +1,5 @@
+
+    
 #!/usr/bin/env bash
 
 # Made by Innovative Inventor at https://github.com/innovativeinventor.
@@ -25,6 +27,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-echo "Building Jekyll site"
+echo "Serving Jekyll site"
+sudo rm -r _site # should make this fail silently
 
-jekyll build --config "_config.yml,_authors.yml" --destination docs/ 
+jekyll serve --config "_config.yml,_authors.yml" 
