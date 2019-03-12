@@ -8,9 +8,6 @@ All changes are also licensed under the MIT License.
 ## Dependencies 
 Ruby dependecies are in the `Gemfile`. 
 
-Additionally, you need to install:
-- [markdownify](https://pypi.org/project/markdownify/)
-
 ## Contributions
 
 1. [Fork the repo](https://github.com/innovativeinventor/scitech).
