@@ -35,7 +35,7 @@ In SciTECH, students can also showcase their newest projects and provide insight
 
 <p>Open source on <a target="_blank" href="https://github.com/innovativeinventor/scitech">GitHub <i class="fab fa-github"></i></a>.</p>
 
-<a target="_blank" href="/assets/pdfs/2018-19_Official_Constitution.pdf/" class="btn btn-warning">Constitution</a>
+<a target="_blank" href="{{site.baseurl}}/assets/pdfs/2018-19_Official_Constitution.pdf/" class="btn btn-warning">Constitution</a>
 
 </div>
 </div>
