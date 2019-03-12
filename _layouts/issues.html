@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+
+<section>
+    <div class="section-title">
+        <h2><span>{{ page.title }}</span></h2>
+    </div>
+    
+    <div class="article-post">
+    <div class="masonry-container">
+    {% for image in site.static_files %}
+            {% if image.path contains 'assets/issues' %}
+	    <span class="masonry-brick">
+	    	<h3> {{image.basename}} </h3>
+	        <object data="{{ site.baseurl }}{{ image.path }}" height=500rem width=500rem type='application/pdf'/></object>
+	        <br>
+	    </span>
+	    {% endif %}
+    {% endfor %}
+    </div>
+	    {{content}}
+    </div>
+    
+    {% if page.comments == true %}
+    
+    <div id="comments" class="row mb-5">
+        <div class="col-md-8">              
+            {% include disqus.html %}                
+        </div>
+    </div>
+    
+    {% endif %}
+    
+</section>
