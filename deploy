@@ -27,4 +27,4 @@
 
 echo "Building Jekyll site"
 
-jekyll build --config "_config.yml,_authors.yml" --destination docs/ 
+jekyll build --config "_config_deploy.yml,_authors.yml" --destination docs/ 

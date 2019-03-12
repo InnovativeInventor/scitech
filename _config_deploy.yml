@@ -1,0 +1,44 @@
+# Site
+name: "SciTECH"
+title: "SciTECH"
+description: "Science & Tech News at Choate."
+meta_description: "Science & Tech News at Choate."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: "/scitech" 
+google_analytics: 'UA-46278016-1'
+disqus: 'choate-scitech'
+mailchimp-list: 'https://github.us20.list-manage.com/subscribe?u=e5ce6a759c37aae6c0b9a13f7&id=95aa49abe2'
+include: ["_pages"]
+exclude: ["hooks", "Gemfile", "Gemfile.lock"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true

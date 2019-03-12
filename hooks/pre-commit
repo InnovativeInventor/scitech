@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Pre-commit hook: builds Jekyll website
 
-bash build
+bash deploy 
