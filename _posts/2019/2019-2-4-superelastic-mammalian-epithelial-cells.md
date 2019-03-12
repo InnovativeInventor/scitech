@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Discovery of Superelastic Properties in Mammalian Epithelial Cells"
+author: "amanda_li_21"
+categories: [ cell, research ]
+image: assets/images/superelastic-cell-graphic.jpg
+featured: true
+---
+
+In October 2018, Nature published a study titled “Active superelasticity in three-dimensional epithelia of controlled shape”[^2] which provided evidence for the appearance of cell superelasticity in mammalian epithelial cells upon undergoing extreme tension. Superelasticity, a property usually found in metallic alloys, is characterized by a cell’s ability to completely reverse large-scale deformations and elongate itself without increased force[^3][^4]. During this state, cells develop liquid-like properties and no longer become resistant to tension.
+ 
+In this study, mammalian epithelial cells were chosen because of their known ability to resist tension as well as their ability to pump water from their upper side to their lower side[^3]. The water would then form a dome under the cells which would create tension and cause the cells to elongate (Figure 1a). During this process, some of the cells became superelastic, stretching to a wider cell surface than the elastic cells (Figure 1b). Adhesion junctions, the connecting area between cells, are the weakest points of pressure and eventually rupture from the increasing force. As a result, the water is able to escape from the dome which releases the tension from the cells (Figure 1c). Since none of the cells were in a state of plasticity, where irreversible damage can be done to the cellular shape3, all the cells return to their original, compacted position with superelastic cells appearing the same as other cells (Figure 1d).
+ 
+Previously, scientists believed cells under identical tension would have the same degree of shape deformation, but this experiment also shows that different cells have different thresholds for superelasticity. As shown in Figure 1, not all of the epithelial cells become superelastic at the same time, which researchers theorized was a result of the varied cellular mechanical properties (such as sensitivity to tension) of each cell[^3]. Additionally, only under specific conditions can a cell enter a state of superelasticity. Cells that are placed under rapidly increasing pressure, even for a short duration, usually rupture while cells with slowly increasing pressure are able to maintain the dome structure for over hours[^3].
+ 
+Although this study has provided insight into a topic on which there was very limited understanding, there are still many questions left regarding cellular superelasticity. For one, there is still no definite reason as to why this occurs. Latorre et al. examined the connection between a cell’s cortex thickness and its superelastic threshold but there wasn’t substantial evidence supporting this hypothesis. The cell cortex is composed mainly of actin filaments, cytoskeletal filaments that maintain cellular structure and shape by relaying forces both within and between cells[^1]. They hoped to show that cellular stretching resulted in the breaking apart of these filaments which would lead to a superelastic state, but the results didn’t show a direct correlation[^3]. But, they were able to show the involvement of intermediate filaments, filaments that only provide mechanical strength to cells and are not involved in cellular movement1. When intermediate filaments in superelastic cells underwent laser ablation (essentially removing them), cell surface increased, which showed that they had resisted tension and were load-bearing (a theory that was suggested due to their unusually stiff structure in super-stretched cells)[^2]. From this, they theorized that the weakness of the cortex induces support from the intermediate filaments and helps the cell elongate.
+
+The discovery of cellular elasticity has important implications on researching other cellular processes, such as the spreading and compaction of super-stretched embryonic tissue[^2] and can also lead to developments in cellular mechanics and engineering. By further examining cellular properties, mechanics, and processes like morphogenesis, we may reach a better understanding of what cellular elasticity is and how it impacts our world.
+ 
+## References
+[^1]: Cooper GM. The Cell: A Molecular Approach. 2nd edition. Sunderland (MA): Sinauer Associates; 2000. Intermediate Filaments. Available from: https://www.ncbi.nlm.nih.gov/books/NBK9834/
+[^2]: Latorre, E., Kale, S., Casares, L., Gómez-González, M., Uroz, M., Valon, L., . . . Trepat, X. (2018, 10). Active superelasticity in three-dimensional epithelia of controlled shape. Nature, 563(7730), 203-208. doi:10.1038/s41586-018-0671-4
+[^3]: Théry, M., & Asnacios, A. (2018, 10). Cellular stretch reveals superelastic powers. Nature, 563(7730), 192-194. doi:10.1038/d41586-018-07172-9
+[^4]: Yirka, B. (2018, 11). Researchers find that cells can at times have superelastic properties. Retrieved from Phys.org website: https://phys.org/news/2018-11-cells-superelastic-properties.html
+

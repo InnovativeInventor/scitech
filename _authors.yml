@@ -1,0 +1,83 @@
+# Authors
+authors:
+  max_fan_21:
+    name: "Max Fan \'21"
+    display_name: "Max Fan \'21"
+    gravatar: 435ba55671f030daefb24624765ef3e8
+    email: noreply@example.com
+    web: https://ideas.homelabs.space
+    twitter: 
+    description: "Creator of this website and online editor at SciTECH/"
+  amanda_li_21:
+    name: "Amanda Li '21"
+    display_name: "Amanda Li '21"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  archive:
+    name: "Archive"
+    display_name: "Archive"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  anjali_mangla_20:
+    name: "Anjali Mangla '20"
+    display_name: "Anjali Mangla '20"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  claire_yuan_22:
+    name: "Claire Yuan '21"
+    display_name: "Claire Yuan '21"
+    gravatar: 
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  kate_spencer_20:
+    name: "Kate Spencer '20"
+    display_name: "Kate Spencer '20"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  sophie_vulpe_20:
+    name: "Sophie Vulpe '20"
+    display_name: "Sophie Vulpe '20"
+    gravatar: 
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor" 
+  will_zhu_20:
+    name: "Will Zhu '20"
+    display_name: "Will Zhu '20"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  zhi_wei_gan_19:
+    name: "Zhi Wei Gan '19"
+    display_name: "Zhi Wei Gan '19"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  zev_nicolai_scanio_18:
+    name: "Zev Nicolai-Scanio '18"
+    display_name: "Zev Nicolai-Scanio '18"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+

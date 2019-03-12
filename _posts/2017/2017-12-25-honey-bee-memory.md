@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Honey Bees: Prime Models For Memory Storage and Alzheimer’s"
+author: "kate_spencer_20"
+categories: [ brain, alzheimer, research ]
+image: assets/images/honey-bee.png
+caption: "Image credit: [USDA](https://www.invasivespeciesinfo.gov/profile/mexican-fruit-fly)"
+featured: false
+---
+
+
+In an effort to further understand the long-term development of memory and memory impairment diseases, researchers at the University of Queensland in Australia recently used honeybees to uncover the impact of DNA methylation. By examining the presence and significance of DNA methylation, the study found that this particular epigenetic process does in fact affect the way a honeybee’s brain remembers and relearns.
+
+The study, conducted by Dr. Stephanie Biergans, depicted that certain molecular mechanisms that regulate memory specification and relearning could have a significant impact on the ways experiences are integrated into long-term memory. Biergans states, “There is thought to be a genetic predisposition for some conditions, such as Alzheimer’s and dementia, but in many cases environmental factors determine whether the disease will manifest.” The researchers aim to use honeybees in order to discover more about molecular and environmental changes that lead to memory impairment diseases.
+
+Although honeybees may appear to be a questionable parallel to Alzheimer’s patients, they are valid models for helping researchers discover more behind the disease’s cause. “Honeybees have an amazing capacity to learn and remember,” says Biergans. “They can count up to four, and orientate themselves by learning patterns and landmarks. They are also social insects that interact, teach, and learn, making them successful foragers. Bees remember how to find a food source, how good the source was, and how to return to the hive.” Because they can form complex memories like humans but have a simple brain structure, honeybees have become a prime model for researching the formulation of long term memories.
+
+Researchers in the past have established that Alzheimer’s disease and memory formation are partly controlled by molecular changes in the brain’s chemistry. As the DNA makeup is altered, physical changes may occur, including differing or new neutral activity and connections. Epigenetic mechanisms, which are a series of molecular changes that can occur due to experience or environmental changes, are known to affect memory formation in humans. They regulate gene expression through DNA modification without changing the individual gene. The Australian research team wanted to determine if DNA methylation, an epigenetic process, had an impact on how honeybees learn and relearn data. Based on what is needed, methylation can make a certain gene stay active or inactive. Biergans added, “We knew that DNA methylation is an epigenetic process that occurs in the brain and is related to memory formation. When we block this process in honeybees, it affects how they remember.”
+
+The experiment involved two separate groups of honeybees, both of which were taught to expect sugar in the presence of a particular scent. The first group learned over an extended period of time; however, the second group was only exposed to the scent once. As explained by the research team, they taught the bees, “to associate an odor with a sugar reward, similar to the olfactory learning taking place when a bee collects nectar from a flower during foraging.” Then they blocked DNA methylation in a few bees in each group using an inhibitor compound. After evaluating both groups with and without DNA methylation, the scientists changed the smell and repeated the process in order to find stable and ongoing conclusions.
+
+The University of Queensland’s researchers ultimately found that DNA methylation plays a significant role in defining how a bee can relearn. “When the bees were presented with sugar and a smell many times together, the presence of DNA methylation increased memory specificity they were less responsive to a novel odor,” summarizes Biergans. “On the other hand, when only introduced to the combination once, DNA methylation decreased specificity.” The results reflect how a honeybee gets and chooses its source of nourishment; when a flower continuously proves to be a proficient source of food, the bees will search for that specific smell. Bees that were not able to methylate were not able to form memories that were as strong or specified as the bees that did methylate.
+
+Through this process, the scientists have discovered information that may allow them to provide treatments for brain diseases in the future. The simple mind of a honeybee has proven to be an accurate and helpful model in understanding the processes behind long-term memory formation. Linking the physical changes in neural connections to human brains could uncover the mystery behind conditions like dementia and Alzheimer’s. Future research is expected to build of of Biergans’ study.
+
+Researchers are hopeful to expand the scientists’ findings. Biergans states, “By understanding how changes to the epigenome accumulate, manifest, and influence brain function, we may, in the future, be able to develop treatments for brain diseases that also develop over a lifetime.”
