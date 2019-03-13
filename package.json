@@ -1,0 +1,22 @@
+{
+  "name": "scitech",
+  "version": "1.0.0",
+  "description": "This website is based off **Mediumish for Jekyll**, developed by [Sal](https://www.wowthemes.net) and licensed under the MIT License.",
+  "main": " ",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnovativeInventor/scitech.git"
+  },
+  "author": "InnovativeInventor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InnovativeInventor/scitech/issues"
+  },
+  "homepage": "https://github.com/InnovativeInventor/scitech#readme"
+}
