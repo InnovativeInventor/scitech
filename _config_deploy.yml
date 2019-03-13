@@ -20,7 +20,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-minifier
 
 # Archives
 jekyll-archives:

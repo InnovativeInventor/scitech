@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-<link rel="icon" href="/assets/images/logo.png">
+<link rel="icon" href="/assets/images/logo.jpg">
     
 <title>Home | SciTECH</title>
         
@@ -18,21 +18,21 @@
 <meta property="og:site_name" content="SciTECH" />
 <link rel="next" href="/page2/" />
 <script type="application/ld+json">
-{"name":"SciTECH","description":"Science &amp; Tech News at Choate.","@type":"WebSite","url":"/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"}},"headline":"Home","@context":"http://schema.org"}</script>
+{"name":"SciTECH","description":"Science &amp; Tech News at Choate.","@type":"WebSite","url":"/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo"}},"headline":"Home","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
     
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet preload" as=style href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     
-<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet preload" as=style>
     
 <link href="/assets/css/screen.css" rel="stylesheet">
     
 <link href="/assets/css/main.css" rel="stylesheet">
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" async></script>
     
 </head>
     
@@ -50,7 +50,11 @@
     
     <!-- Begin Logo -->
     <a class="navbar-brand" href="/">
-    <img src="/assets/images/logo.png" alt="SciTECH">
+        <picture>
+	    <source type="image/webp" srcset="/assets/images/logo.webp">
+	    <source type="image/jp2" srcset="/assets/images/logo.jp2">
+	    <img src="/assets/images/logo.jpg" alt="SciTECH">
+	</picture>
     </a>
     <!-- End Logo -->
   
@@ -159,16 +163,16 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a href="/superelastic-mammalian-epithelial-cells/">
-                            <span class="thumbnail d-block">
-                 
-		    <picture>
+                            <span class="thumbnail d-block" style="background-image:url(/assets/images/superelastic-cell-graphic.jpg);background-image:url(/assets/images/superelastic-cell-graphic.webp);">
+		<!-- 
+		    <picture class="img-fluid">
 			 
 			<source type="image/webp" srcset="/assets/images/superelastic-cell-graphic.webp">
 			<source type="image/jp2" srcset="/assets/images/superelastic-cell-graphic.jp2">
 			
-	        	<img class="img-fluid" src="/assets/images/superelastic-cell-graphic.jpg" alt="Discovery of Superelastic Properties in Mammalian Epithelial Cells"> 
+			<img class="img-fluid" src="/assets/images/superelastic-cell-graphic.jpg" alt="Discovery of Superelastic Properties in Mammalian Epithelial Cells"> 
 		    </picture>
-		
+		-->
                             </span>
                         </a>
                     </div>
@@ -248,16 +252,16 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a href="/algorithimic-thinking-education/">
-                            <span class="thumbnail d-block">
-                 
-		    <picture>
+                            <span class="thumbnail d-block" style="background-image:url(/assets/images/computer-brain.jpg);background-image:url(/assets/images/computer-brain.webp);">
+		<!-- 
+		    <picture class="img-fluid">
 			 
 			<source type="image/webp" srcset="/assets/images/computer-brain.webp">
 			<source type="image/jp2" srcset="/assets/images/computer-brain.jp2">
 			
-	        	<img class="img-fluid" src="/assets/images/computer-brain.jpg" alt="Why Algorithmic Thinking is Important in Computer Science Education"> 
+			<img class="img-fluid" src="/assets/images/computer-brain.jpg" alt="Why Algorithmic Thinking is Important in Computer Science Education"> 
 		    </picture>
-		
+		-->
                             </span>
                         </a>
                     </div>
@@ -728,8 +732,9 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                  Copyright © 2019 SciTECH 
+	    <h5>Made by Maxwell Fan '21</h5>
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+	    <div class="col-md-6 col-sm-6 text-center text-lg-right">    
                 <a target="_blank" href="https://github.com/innovativeinventor/scitech">Open source</a> with 
           	<img src="https://img.shields.io/badge/license-MIT-brightgreen.svg">
 	    </div>
@@ -753,7 +758,7 @@
 
 <script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
     
-<script id="dsq-count-scr" src="//choate-scitech.disqus.com/count.js"></script>
+<script id="dsq-count-scr" src="//choate-scitech.disqus.com/count.js" async></script>
     
 </body>
 </html>

@@ -7,16 +7,16 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a href="{{ post.url | absolute_url }}">
-                            <span class="thumbnail d-block">
-                {% if post.image %} 
-		    <picture>
+                            <span class="thumbnail d-block" style="{% if post.image contains "://" %}background-image:url({{ post.image }});{% else %}background-image:url({{ post.image | absolute_url }});background-image:url({{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp);{% endif %}">
+		<!--{% if post.image %} 
+		    <picture class="img-fluid">
 			 {% unless post.image contains "://" %}
 			<source type="image/webp" srcset="{{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp">
 			<source type="image/jp2" srcset="{{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.jp2">
 			{% endunless %}
-	        	<img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}"> 
+			<img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}"> 
 		    </picture>
-		{% endif %}
+		{% endif %}-->
                             </span>
                         </a>
                     </div>
