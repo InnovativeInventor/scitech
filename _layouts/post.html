@@ -42,7 +42,15 @@ post_class: post-template
 
 			<!-- Post Featured Image -->
 			{% if page.image %}
-			<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}" align="middle">
+			<span class="featured-image img-fluid" align="middle">
+		    <picture>
+			 {% unless post.image contains "://" %}
+			<source type="image/webp" srcset="{{ page.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp">
+			<source type="image/jp2" srcset="{{ page.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.jp2">
+			{% endunless %}
+	        	<img class="featured-image img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}"> 
+		    </picture>
+			</span>
 				{% if page.caption %}
 				<p><i>{{ page.caption | markdownify }}</i></p>	
 				{% endif %}

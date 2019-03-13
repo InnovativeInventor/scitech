@@ -17,6 +17,5 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'kramdown'
     gem 'rouge'
-    gem 'jekyll-compress-images'
     gem 'jekyll-minifier'
 end
