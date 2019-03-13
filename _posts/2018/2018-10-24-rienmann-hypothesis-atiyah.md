@@ -3,7 +3,7 @@ layout: post
 title: "Puzzle in the Primes: Atiyah’s Attempt at the Riemann Hypothesis"
 author: "sophie_vulpe_20"
 categories: [ brain, research ]
-image: assets/images/riemann-hypothesis-picutre.jpg
+image: assets/images/riemann-hypothesis-picture.jpg
 caption: "Image credit: [The Weekly Observer](https://theweeklyobserver.com/wp-content/uploads/2018/09/2516525.jpg)"
 featured: false
 ---

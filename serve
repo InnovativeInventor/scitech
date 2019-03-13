@@ -29,5 +29,5 @@
 
 echo "Serving Jekyll site"
 sudo rm -r _site # should make this fail silently
-
+python3 convert.py
 bundle exec jekyll serve --config "_config.yml,_authors.yml" 

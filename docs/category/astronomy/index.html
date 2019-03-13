@@ -152,7 +152,15 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/scitech/meteor-shower-sing/">
-                 <img class="img-fluid" src="/scitech/assets/images/meteor-sky.jpg" alt="Making Meteor Showers Sing"> 
+                 
+		    <picture>
+			 
+			<source type="image/webp" srcset=" | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp">
+			<source type="image/jp2" srcset=" | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.jp2">
+			
+	        	<img class="img-fluid" src="/scitech/assets/images/meteor-sky.jpg" alt="Making Meteor Showers Sing"> 
+		    </picture>
+		
             </a>
         </div>
         <div class="card-body">
@@ -182,6 +190,7 @@
     </div>
 </div>
 <!-- end post -->
+
 
 
 
