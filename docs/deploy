@@ -27,4 +27,8 @@
 
 echo "Building Jekyll site"
 
-jekyll build --config "_config_deploy.yml,_authors.yml" --destination docs/ 
+set JEKYLL_ENV production
+
+bundle exec jekyll build --config "_config_deploy.yml,_authors.yml" --destination docs/ 
+
+set -e JEKYLL_ENV
