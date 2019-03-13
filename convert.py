@@ -1,0 +1,34 @@
+import glob
+import tqdm
+import subprocess
+import os
+import shutil
+
+ORIGINAL_DIR = '/Users/max/git/scitech/assets/'
+UPDATE = True 
+
+## You can edit as you wish. You need to install all of these first.
+convert = "/usr/local/bin/convert"
+optimizers =	{
+  "jpgs": ['**/*.jpg', '/usr/local/bin/guetzli --nomemlimit --quality 100 input output'],
+  "jpges": ['**/*.jpeg', '/usr/local/bin/guetzli --nomemlimit --quality 100 input output'],
+  "pngs": ['**/*.png', '/usr/local/bin/pngcrush input output'],
+}
+
+for filetype, options in optimizers.items():
+    print(filetype)
+    glob_opt = options[0]
+    print(glob_opt)
+    cli_opt = options[1]
+    files = glob.iglob(ORIGINAL_DIR + glob_opt, recursive=True)
+    for each_file in files:
+        base_filename = each_file.split('.')[0]
+        print(base_filename)
+        if not os.path.isfile(base_filename + ".webp"):
+            subprocess.run(convert + " " + each_file + " -quality 100 " +
+                           base_filename + ".webp", shell=True)
+
+        if not os.path.isfile(base_filename + ".jp2"):
+            subprocess.run(convert + " " + each_file + " -quality 100 " +
+                           base_filename + ".jp2", shell=True)
+
