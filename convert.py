@@ -4,11 +4,11 @@ import subprocess
 import os
 import shutil
 
-ORIGINAL_DIR = '/Users/max/git/scitech/assets/'
-UPDATE = True 
+ORIGINAL_DIR = '/Users/max/git/scitech/assets/' 
 
 ## You can edit as you wish. You need to install all of these first.
 convert = "/usr/local/bin/convert"
+quality = 100
 optimizers =	{
   "jpgs": ['**/*.jpg', '/usr/local/bin/guetzli --nomemlimit --quality 100 input output'],
   "jpges": ['**/*.jpeg', '/usr/local/bin/guetzli --nomemlimit --quality 100 input output'],
@@ -25,10 +25,10 @@ for filetype, options in optimizers.items():
         base_filename = each_file.split('.')[0]
         print(base_filename)
         if not os.path.isfile(base_filename + ".webp"):
-            subprocess.run(convert + " " + each_file + " -quality 100 " +
+            subprocess.run(convert + " " + each_file + " -quality "+ quality +" " +
                            base_filename + ".webp", shell=True)
 
         if not os.path.isfile(base_filename + ".jp2"):
-            subprocess.run(convert + " " + each_file + " -quality 100 " +
+            subprocess.run(convert + " " + each_file + " -quality "+ quality +" " +
                            base_filename + ".jp2", shell=True)
 

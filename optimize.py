@@ -7,15 +7,19 @@ import shutil
 ORIGINAL_DIR = '/Users/max/git/scitech/docs-temp/'
 OUTPUT_DIR = '/Users/max/git/scitech/docs/'
 UPDATE = True 
+QUALITY = '90'
 
-## You can edit as you wish. You need to install all of these first.
+# You can edit as you wish. You need to install all of these first.
 convert = "/usr/local/bin/convert"
 optimizers =	{
-  "jpgs": ['**/*.jpg', '/usr/local/bin/guetzli --nomemlimit --quality 100 input output'],
-  "jpges": ['**/*.jpeg', '/usr/local/bin/guetzli --nomemlimit --quality 100 input output'],
-  "pngs": ['**/*.png', '/usr/local/bin/pngcrush input output'],
-  "css": ['**/*.css','minify -o output input'],
-  "js": ['**/*.js','minify -o output input']
+  "jpgs": ['**/*.jpg', '/usr/local/bin/guetzli --nomemlimit --quality ' +
+           QUALITY + ' input output'],
+  "jpges": ['**/*.jpeg', '/usr/local/bin/guetzli --nomemlimit --quality ' +
+            QUALITY + ' input output'], 
+  "pngs": ['**/*.png', '/usr/local/bin/pngcrush input output'], 
+  "css": ['**/*.css','minify -o output input'], 
+  "js": ['**/*.js','minify -o output input'], 
+  "webp": ['**/*.webp','cwebp input -o output -z 9 -m 6 -mt -pass 10 -q ' + QUALITY]
 }
 
 for filetype, options in optimizers.items():
