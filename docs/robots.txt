@@ -1,1 +1,1 @@
-Sitemap: /scitech/sitemap.xml
+Sitemap: /sitemap.xml
