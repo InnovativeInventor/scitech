@@ -37,8 +37,11 @@ paginate_path: /page:num/
     
 # Compression
 compress_images:
-  images_path: "assets/images/**.{gif,png,jpg,jpeg,svg}"
-
+  images_path: "assets/**/*.{gif,png,jpg,jpeg,svg}"
+  imageoptim:
+    pngout: true 
+    svgo: true
+    verbose: true 
 # Other
 markdown: kramdown
 
