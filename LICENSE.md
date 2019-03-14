@@ -1,4 +1,4 @@
-All changes and modifications to the code (*excluding post content*) is released under the MIT license:
+All changes and modifications to the code (*excluding post content and Choate colors*) are released under the [MIT license](https://choosealicense.com/licenses/mit/):
 ```
 Copyright (c) 2019 Maxwell Fan 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,7 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-All original boilerplate code is under the MIT license:
+All original boilerplate code is under the [MIT license](https://choosealicense.com/licenses/mit/):
 ```
 Copyright (c) 2019 WowThemes.net
 License: MIT
