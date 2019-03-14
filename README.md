@@ -2,12 +2,6 @@
 
 ![image](https://scitech.homelabs.space/screenshot-github.jpg)
 
-
-This website is based off **Mediumish for Jekyll**, developed by [Sal](https://www.wowthemes.net) and licensed under the MIT License.
-
-All changes are also licensed under the MIT License. 
-
-
 ## Dependencies 
 Ruby dependecies are in the `Gemfile`. 
 
@@ -27,4 +21,8 @@ To run `optimize.py` and `convert.py`, these need to be installed:
 Prolific contributors can add their name to the credits in the footer.
 
 ## License
+This website is based off **Mediumish for Jekyll**, developed by [Sal](https://www.wowthemes.net) and licensed under the MIT License.
+
+All changes are also licensed under the MIT License. 
+
 See `LICENSE.md` for more info.
