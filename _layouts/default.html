@@ -130,7 +130,7 @@ ga('send', 'pageview');
 {% if site.mailchimp-list %}
 <!-- Bottom Alert Bar
 ================================================== -->
-<div class="alertbar">
+<div class="alertbar" id="alertbar-disposable">
 	<div class="container text-center">
 		<span>&nbsp; Never miss a <b>story</b> from us by subscribing to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
@@ -141,6 +141,9 @@ ga('send', 'pageview');
 	    <a href="/feed.xml"><img src="https://img.shields.io/static/v1.svg?label=rss&message=feed&color=orange"></a>
 	    </div>
         </form>
+	<button type="button" class="close" aria-label="Close" id="alertbar-close">
+  	    <span aria-hidden="true">&times;</span>
+	</button>
 	</div>
 </div>    
 {% endif %}

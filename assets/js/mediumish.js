@@ -92,4 +92,7 @@ jQuery(document).ready(function($){
         $(this).removeClass('spoiler');
      });
     
- });   
+ });
+$("#alertbar-close").click(function(){
+    $("#alertbar-disposable").remove();
+});

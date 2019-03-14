@@ -696,3 +696,12 @@ License: https://www.wowthemes.net/freebies-license/
 .spoiler:hover:after {
     opacity:1;
 }
+#alertbar-close {
+    font-size: 200%;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    top-margin: auto; 
+    bottom-margin: auto;
+    right: calc(-2vw * 1.5);
+    position: relative;
+}
