@@ -1,6 +1,6 @@
 ## SciTECH Website 
 
-![image](https://scitech.homelabs.space/screenshot-github.jpg)
+![image](screenshot-github.jpg)
 
 ## Dependencies 
 Ruby dependecies are in the `Gemfile`. 
