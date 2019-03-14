@@ -610,6 +610,7 @@ License: https://www.wowthemes.net/freebies-license/
     background: rgba(0,0,0,0.75);
     color: #fff;
 }
+/*Jumbotron backround color needs to be updated in two spots*/
  @media (min-width:768px) {
      .jumbotron.fortags {
          margin-bottom:-50px;
@@ -617,11 +618,11 @@ License: https://www.wowthemes.net/freebies-license/
          padding:0;
          height:350px;
          border-radius:0;
-         background-image: url(../images/jumbotron.jpg);
+         background-color:#005696;
          background-size:cover;
     }
      .jumbotron.fortags .col-md-4 {
-         background:rgba(0,0,0,0.75);
+         background:#fdb81f;
          color:#fff;
     }
      .jumbotron.fortags .row {
@@ -632,7 +633,7 @@ License: https://www.wowthemes.net/freebies-license/
          margin-top: 3rem;
          padding:0;
          border-radius:0;
-         background-image: url(../images/jumbotron.jpg);
+         background-color:#005696;
          background-size:cover;
 }
  .jumbotron.fortags a {
@@ -642,7 +643,7 @@ License: https://www.wowthemes.net/freebies-license/
      color: #fff;
      font-weight: 500;
      text-transform: lowercase;
-     font-size: 0.8rem;
+     font-size: 1rem;
      display: inline-block;
 }
  .layout-page .jumbotron.fortags {

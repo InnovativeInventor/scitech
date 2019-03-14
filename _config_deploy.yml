@@ -1,8 +1,8 @@
 # Site
 name: "SciTECH"
 title: "SciTECH"
-description: "Science & Tech News at Choate."
-meta_description: "Science & Tech News at Choate."
+description: "Science & Tech News at Choate Rosemary Hall."
+meta_description: "Science & Tech News at Choate Rosemary Hall."
 logo: 'assets/images/logo' # Make sure this logo is also in .jp2 and .webp formats
 favicon: 'assets/images/logo'
 baseurl: 
