@@ -1,5 +1,22 @@
 <!-- begin post -->
+{% assign webpId = site.static_files | sample: 5 %}
+
+<script>
+// Safari workaround
+function testWebP(callback) {
+    var webP = new Image();
+    webP.onload = webP.onerror = function () {
+        callback(webP.height == 2);
+    };
+    webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+};
+
+testWebP(function(support) {
+	support ? true : document.getElementById("{{ webpId }}").style.cssText = 'position:relative;{% if post.image %}background-image:url({{ post.image }});{% endif %}'
+});
+</script>
 {% assign author = site.authors[post.author] %}
+
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
@@ -7,8 +24,10 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a href="{{ post.url | absolute_url }}">
-                            <span class="thumbnail d-block" style="{% if post.image contains "://" %}background-image:url({{ post.image }});{% else %}background-image:url({{ post.image | absolute_url }});background-image:url({{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp);{% endif %}">
-		<!--{% if post.image %} 
+			{% if post.image %}
+			<span class="thumbnail d-block" id="{{ webpId }}" style="position:relative;{% if post.image contains "://" %}background-image:url({{ post.image }});{% else %}background-image:url({{ post.image | absolute_url }});background-image:url({{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp);{% endif %}">
+			{% endif %}
+				    <!--{% if post.image %} 
 		    <picture class="img-fluid">
 			 {% unless post.image contains "://" %}
 			<source type="image/webp" srcset="{{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp">

@@ -156,6 +156,23 @@
 
             <!-- begin post -->
 
+
+<script>
+// Safari workaround
+function testWebP(callback) {
+    var webP = new Image();
+    webP.onload = webP.onerror = function () {
+        callback(webP.height == 2);
+    };
+    webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+};
+
+testWebP(function(support) {
+	support ? true : document.getElementById("#<Jekyll::StaticFile:0x00007ff33a565128>#<Jekyll::StaticFile:0x00007ff3401f0348>#<Jekyll::StaticFile:0x00007ff33a39a7a8>#<Jekyll::StaticFile:0x00007ff3401f0190>#<Jekyll::StaticFile:0x00007ff33a5ff0c0>").style.cssText = 'position:relative;background-image:url(assets/images/superelastic-cell-graphic.jpg);'
+});
+</script>
+
+
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
@@ -163,8 +180,10 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a href="/superelastic-mammalian-epithelial-cells/">
-                            <span class="thumbnail d-block" style="background-image:url(/assets/images/superelastic-cell-graphic.jpg);background-image:url(/assets/images/superelastic-cell-graphic.webp);">
-		<!-- 
+			
+			<span class="thumbnail d-block" id="#<Jekyll::StaticFile:0x00007ff33a565128>#<Jekyll::StaticFile:0x00007ff3401f0348>#<Jekyll::StaticFile:0x00007ff33a39a7a8>#<Jekyll::StaticFile:0x00007ff3401f0190>#<Jekyll::StaticFile:0x00007ff33a5ff0c0>" style="position:relative;background-image:url(/assets/images/superelastic-cell-graphic.jpg);background-image:url(/assets/images/superelastic-cell-graphic.webp);">
+			
+				    <!-- 
 		    <picture class="img-fluid">
 			 
 			<source type="image/webp" srcset="/assets/images/superelastic-cell-graphic.webp">
@@ -245,6 +264,23 @@
 
             <!-- begin post -->
 
+
+<script>
+// Safari workaround
+function testWebP(callback) {
+    var webP = new Image();
+    webP.onload = webP.onerror = function () {
+        callback(webP.height == 2);
+    };
+    webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+};
+
+testWebP(function(support) {
+	support ? true : document.getElementById("#<Jekyll::StaticFile:0x00007ff33a565128>#<Jekyll::StaticFile:0x00007ff33c87b810>#<Jekyll::StaticFile:0x00007ff33a5fe238>#<Jekyll::StaticFile:0x00007ff33a5fe7b0>#<Jekyll::StaticFile:0x00007ff33a5fe058>").style.cssText = 'position:relative;background-image:url(assets/images/computer-brain.jpg);'
+});
+</script>
+
+
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
@@ -252,8 +288,10 @@
                 <div class="h-100">
                     <div class="wrapthumbnail">
                         <a href="/algorithimic-thinking-education/">
-                            <span class="thumbnail d-block" style="background-image:url(/assets/images/computer-brain.jpg);background-image:url(/assets/images/computer-brain.webp);">
-		<!-- 
+			
+			<span class="thumbnail d-block" id="#<Jekyll::StaticFile:0x00007ff33a565128>#<Jekyll::StaticFile:0x00007ff33c87b810>#<Jekyll::StaticFile:0x00007ff33a5fe238>#<Jekyll::StaticFile:0x00007ff33a5fe7b0>#<Jekyll::StaticFile:0x00007ff33a5fe058>" style="position:relative;background-image:url(/assets/images/computer-brain.jpg);background-image:url(/assets/images/computer-brain.webp);">
+			
+				    <!-- 
 		    <picture class="img-fluid">
 			 
 			<source type="image/webp" srcset="/assets/images/computer-brain.webp">
@@ -732,7 +770,9 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                  Copyright © 2019 SciTECH 
-	    <h5>Made by Maxwell Fan '21</h5>
+		 <a href="https://github.com/InnovativeInventor/"> 
+			 <h5>Made by Maxwell Fan '21</h5>
+		 </a>
             </div>
 	    <div class="col-md-6 col-sm-6 text-center text-lg-right">    
                 <a target="_blank" href="https://github.com/innovativeinventor/scitech">Open source</a> with 
