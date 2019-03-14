@@ -35,4 +35,5 @@ bundle exec jekyll build --config "_config_deploy.yml,_authors.yml" --destinatio
 
 python3 optimize.py
 
+curl -L https://render-tron.appspot.com/screenshot/https://scitech.homelabs.space/?width=1500&height=2750 -o screenshot.jpg
 set -e JEKYLL_ENV
