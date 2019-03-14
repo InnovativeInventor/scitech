@@ -20,6 +20,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-git_metadata
 
 # Archives
 jekyll-archives:
