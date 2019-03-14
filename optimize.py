@@ -59,6 +59,9 @@ for filetype, options in optimizers.items():
             if cache[each_file] == sha_hash(each_file):
                 continue
 
+        if "screenshot-github.jpg" in each_file:
+            continue
+
         if not os.path.exists(os.path.dirname(output_location)):
             try:
                 os.makedirs(os.path.dirname(output_location))

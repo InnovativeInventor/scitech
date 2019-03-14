@@ -22,6 +22,9 @@ for filetype, options in optimizers.items():
     cli_opt = options[1]
     files = glob.iglob(ORIGINAL_DIR + glob_opt, recursive=True)
     for each_file in files:
+        if "screenshot-github.jpg" in each_file:
+            continue
+
         base_filename = each_file.split('.')[0]
         print(base_filename)
         if not os.path.isfile(base_filename + ".webp"):

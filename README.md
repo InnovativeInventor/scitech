@@ -1,6 +1,6 @@
 ## SciTECH Website 
 
-![image](https://raw.githubusercontent.com/InnovativeInventor/scitech/master/screenshot.jpg)
+![image](https://scitech.homelabs.space/screenshot-github.jpg)
 
 
 This website is based off **Mediumish for Jekyll**, developed by [Sal](https://www.wowthemes.net) and licensed under the MIT License.
