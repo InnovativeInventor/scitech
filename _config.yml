@@ -10,7 +10,7 @@ google_analytics:
 disqus: 'choate-scitech'
 mailchimp-list: 'https://github.us20.list-manage.com/subscribe?u=e5ce6a759c37aae6c0b9a13f7&id=95aa49abe2'
 include: ["_pages"]
-exclude: ["hooks", "Gemfile", "Gemfile.lock", "README.md", "deploy", "serve", "package.json", "docs/", "docs-temp/", "*.py"]
+exclude: ["hooks", "Gemfile", "Gemfile.lock", "README.md", "deploy", "serve", "package.json", "docs/", "docs-temp/", "*.py", "*.pickle"]
 permalink: /:title/
 
 # Plugins
