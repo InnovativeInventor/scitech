@@ -144,6 +144,15 @@
 
 <!-- Featured
 ================================================== -->
+<script>
+function testWebP(callback) {
+    var webP = new Image();
+    webP.onload = webP.onerror = function () {
+        callback(webP.height == 2);
+    };
+    webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+};
+</script>
 <section class="featured-posts">
     <div class="section-title">
         <h2><span>Featured</span></h2>
@@ -158,17 +167,8 @@
 
 
 <script>
-// Safari workaround
-function testWebP(callback) {
-    var webP = new Image();
-    webP.onload = webP.onerror = function () {
-        callback(webP.height == 2);
-    };
-    webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
-};
-
 testWebP(function(support) {
-	support ? true : document.getElementById("#<Jekyll::StaticFile:0x00007fdf7768b498>#<Jekyll::StaticFile:0x00007fdf78305408>#<Jekyll::StaticFile:0x00007fdf7827b690>#<Jekyll::StaticFile:0x00007fdf7827a5b0>#<Jekyll::StaticFile:0x00007fdf776b6350>").style.cssText = 'position:relative;background-image:url(assets/images/superelastic-cell-graphic.jpg);'
+	support ? true : document.getElementById("#<Jekyll::StaticFile:0x00007fae62879750>#<Jekyll::StaticFile:0x00007fae628835e8>#<Jekyll::StaticFile:0x00007fae5cbd3e10>#<Jekyll::StaticFile:0x00007fae6287bc58>#<Jekyll::StaticFile:0x00007fae6287b6e0>").style.cssText = 'position:relative;background-image:url(assets/images/superelastic-cell-graphic.jpg);'
 });
 </script>
 
@@ -181,7 +181,7 @@ testWebP(function(support) {
                     <div class="wrapthumbnail">
                         <a href="/superelastic-mammalian-epithelial-cells/">
 			
-			<span class="thumbnail d-block" id="#<Jekyll::StaticFile:0x00007fdf7768b498>#<Jekyll::StaticFile:0x00007fdf78305408>#<Jekyll::StaticFile:0x00007fdf7827b690>#<Jekyll::StaticFile:0x00007fdf7827a5b0>#<Jekyll::StaticFile:0x00007fdf776b6350>" style="position:relative;background-image:url(/assets/images/superelastic-cell-graphic.jpg);background-image:url(/assets/images/superelastic-cell-graphic.webp);">
+			<span class="thumbnail d-block" id="#<Jekyll::StaticFile:0x00007fae62879750>#<Jekyll::StaticFile:0x00007fae628835e8>#<Jekyll::StaticFile:0x00007fae5cbd3e10>#<Jekyll::StaticFile:0x00007fae6287bc58>#<Jekyll::StaticFile:0x00007fae6287b6e0>" style="position:relative;background-image:url(/assets/images/superelastic-cell-graphic.jpg);background-image:url(/assets/images/superelastic-cell-graphic.webp);">
 			
 				    <!-- 
 		    <picture class="img-fluid">
@@ -266,17 +266,8 @@ testWebP(function(support) {
 
 
 <script>
-// Safari workaround
-function testWebP(callback) {
-    var webP = new Image();
-    webP.onload = webP.onerror = function () {
-        callback(webP.height == 2);
-    };
-    webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
-};
-
 testWebP(function(support) {
-	support ? true : document.getElementById("#<Jekyll::StaticFile:0x00007fdf7768b100>#<Jekyll::StaticFile:0x00007fdf7827bac8>#<Jekyll::StaticFile:0x00007fdf783048f0>#<Jekyll::StaticFile:0x00007fdf78305048>#<Jekyll::StaticFile:0x00007fdf776b5f90>").style.cssText = 'position:relative;background-image:url(assets/images/computer-brain.jpg);'
+	support ? true : document.getElementById("#<Jekyll::StaticFile:0x00007fae5cbd04b8>#<Jekyll::StaticFile:0x00007fae62879ea8>#<Jekyll::StaticFile:0x00007fae5ee40430>#<Jekyll::StaticFile:0x00007fae6287ada8>#<Jekyll::StaticFile:0x00007fae62878300>").style.cssText = 'position:relative;background-image:url(assets/images/computer-brain.jpg);'
 });
 </script>
 
@@ -289,7 +280,7 @@ testWebP(function(support) {
                     <div class="wrapthumbnail">
                         <a href="/algorithimic-thinking-education/">
 			
-			<span class="thumbnail d-block" id="#<Jekyll::StaticFile:0x00007fdf7768b100>#<Jekyll::StaticFile:0x00007fdf7827bac8>#<Jekyll::StaticFile:0x00007fdf783048f0>#<Jekyll::StaticFile:0x00007fdf78305048>#<Jekyll::StaticFile:0x00007fdf776b5f90>" style="position:relative;background-image:url(/assets/images/computer-brain.jpg);background-image:url(/assets/images/computer-brain.webp);">
+			<span class="thumbnail d-block" id="#<Jekyll::StaticFile:0x00007fae5cbd04b8>#<Jekyll::StaticFile:0x00007fae62879ea8>#<Jekyll::StaticFile:0x00007fae5ee40430>#<Jekyll::StaticFile:0x00007fae6287ada8>#<Jekyll::StaticFile:0x00007fae62878300>" style="position:relative;background-image:url(/assets/images/computer-brain.jpg);background-image:url(/assets/images/computer-brain.webp);">
 			
 				    <!-- 
 		    <picture class="img-fluid">
@@ -777,7 +768,7 @@ testWebP(function(support) {
 	    <div class="col-md-6 col-sm-6 text-center text-lg-right">    
                 <a target="_blank" href="https://github.com/innovativeinventor/scitech">Open source</a> with 
           	<img src="https://img.shields.io/badge/license-MIT-brightgreen.svg">
-		<p>Total commits: 36<br>Last commit: <a href="https://github.com/InnovativeInventor/scitech/commit/c39c1fc88f8a9bcf6c0900802d418ee127fa8c1a">c39c1fc</a></p>
+		<p>Total commits: 37<br>Last commit: <a href="https://github.com/InnovativeInventor/scitech/commit/9ed344df8ef39620ecf35df63cdd05773ff54565">9ed344d</a></p>
 	    </div>
         </div>
     </div>
@@ -791,15 +782,15 @@ testWebP(function(support) {
 <!-- Scripts
 ================================================== -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
     
-<script src="/assets/js/mediumish.js"></script>
+<script src="/assets/js/mediumish.js" async defer></script>
 
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="/assets/js/ie10-viewport-bug-workaround.js" async defer></script> 
     
-<script id="dsq-count-scr" src="//choate-scitech.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="//choate-scitech.disqus.com/count.js" async defer></script>
     
 </body>
 </html>

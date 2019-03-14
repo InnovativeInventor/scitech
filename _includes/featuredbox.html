@@ -2,15 +2,6 @@
 {% assign webpId = site.static_files | sample: 5 %}
 
 <script>
-// Safari workaround
-function testWebP(callback) {
-    var webP = new Image();
-    webP.onload = webP.onerror = function () {
-        callback(webP.height == 2);
-    };
-    webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
-};
-
 testWebP(function(support) {
 	support ? true : document.getElementById("{{ webpId }}").style.cssText = 'position:relative;{% if post.image %}background-image:url({{ post.image }});{% endif %}'
 });
