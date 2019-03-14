@@ -19,9 +19,10 @@ optimizers =	{
   "jpges": ['**/*.jpeg', '/usr/local/bin/guetzli --nomemlimit --quality ' +
             QUALITY + ' input output'], 
   "pngs": ['**/*.png', '/usr/local/bin/pngcrush input output'], 
-  "css": ['**/*.css','minify -o output input'], 
-  "js": ['**/*.js','minify -o output input'], 
-  "webp": ['**/*.webp','cwebp input -o output -z 9 -m 6 -mt -pass 10 -q ' + QUALITY]
+  "css": ['**/*.css', 'minify -o output input'],
+  "js": ['**/*.js', 'minify -o output input'],
+  "html": ['**/*.html', 'minify -o output input'],
+  "webp": ['**/*.webp', 'cwebp input -o output -z 9 -m 6 -mt -pass 10 -q ' + QUALITY]
 }
 
 def sha_hash(filename):
