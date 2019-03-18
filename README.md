@@ -11,6 +11,9 @@ To run `optimize.py` and `convert.py`, these need to be installed:
 - pngcrush
 - cwebp
 - [minify](https://github.com/tdewolff/minify)
+- csso
+- uglifyjs
+- closure compiler (requires Java)
 
 ## Contributions
 1. [Fork the repo](https://github.com/innovativeinventor/scitech).
