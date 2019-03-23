@@ -9,7 +9,7 @@ import tqdm
 
 ORIGINAL_DIR = '/Users/max/git/scitech/docs-temp/'
 OUTPUT_DIR = '/Users/max/git/scitech/docs/'
-UPDATE = False
+UPDATE = False 
 QUALITY = '90'
 
 # You can edit as you wish. You need to install all of these first.
@@ -26,12 +26,12 @@ optimizers = {
     "pngs": ['**/*.png', '/usr/local/bin/pngcrush input output'],
     "css-minify": ['**/*.css', 'minify -o output input'],
     "css-csso": ['**/*.css', 'csso input --comments none -o output'],
-#    "js-minify": ['**/*.js', 'minify -o output input'],
+    "js-minify": ['**/*.js', 'minify -o output input'],
     "js-closure-compiler": [
         '**/*.js',
         'closure-compiler --js input --js_output_file output -O ADVANCED'
     ],
-#    "js-uglify": ['**/*.js', 'uglifyjs --compress --mangle input -o output'],
+    # "js-uglify": ['**/*.js', 'uglifyjs --compress input -o output'],
     "html": ['**/*.html', 'minify -o output input'],
     "webp": [
         '**/*.webp',
@@ -58,9 +58,16 @@ if os.path.isfile('cache.pickle'):
 else:
     cache = {}
 
+glob_history = []
 for filetype, options in optimizers.items():
     print(filetype)
     glob_opt = options[0]
+    if not glob_opt in glob_history:
+        glob_history.append(glob_opt)
+        SEEN = False
+    else:
+        SEEN = True
+
     print(glob_opt)
     cli_opt = options[1]
     files = glob.iglob(ORIGINAL_DIR + glob_opt, recursive=True)
@@ -78,6 +85,9 @@ for filetype, options in optimizers.items():
 
         if "screenshot-github.jpg" in each_file:
             continue
+
+        if SEEN:
+            shutil.move(output_location, each_file)
 
         if not os.path.exists(os.path.dirname(output_location)):
             try:
