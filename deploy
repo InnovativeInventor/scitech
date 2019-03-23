@@ -27,11 +27,11 @@
 
 echo "Building Jekyll site"
 
-set JEKYLL_ENV production jekyll build
+set JEKYLL_ENV production
 
 python3 convert.py
 
-bundle exec jekyll build --config "_config_deploy.yml,_authors.yml" --destination docs-temp/ 
+JEKYLL_ENV=production bundle exec jekyll build --config "_config_deploy.yml,_authors.yml" --destination docs-temp/ 
 
 python3 optimize.py
 
