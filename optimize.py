@@ -9,33 +9,36 @@ import tqdm
 
 ORIGINAL_DIR = '/Users/max/git/scitech/docs-temp/'
 OUTPUT_DIR = '/Users/max/git/scitech/docs/'
-UPDATE = False 
+UPDATE = False
 QUALITY = '85'
 
 # You can edit as you wish. You need to install all of these first.
 convert = "/usr/local/bin/convert"
 optimizers = {
-    "jpgs": [
+    "jpgs-guetzli": [
         '**/*.jpg', '/usr/local/bin/guetzli --nomemlimit --quality ' + QUALITY
         + ' input output'
     ],
-    "jpges": [
+    "jpgs-optim": ['**/*.jpg', 'jpegoptim --strip-all -d output input'],
+    "jpges-guetzli": [
         '**/*.jpeg', '/usr/local/bin/guetzli --nomemlimit --quality ' + QUALITY
         + ' input output'
     ],
+    "jpges-optim": ['**/*.jpeg', 'jpegoptim --strip-all -d output input'],
     "pngs": ['**/*.png', '/usr/local/bin/pngcrush input output'],
     "css-minify": ['**/*.css', 'minify -o output input'],
     "css-csso": ['**/*.css', 'csso input --comments none -o output'],
-    "js-minify": ['**/*.js', 'minify -o output input'],
     "js-closure-compiler": [
         '**/*.js',
         'closure-compiler --js input --js_output_file output -O ADVANCED'
     ],
+    "js-minify": ['**/*.js', 'minify -o output input'],
     # "js-uglify": ['**/*.js', 'uglifyjs --compress input -o output'],
     "html": ['**/*.html', 'minify -o output input'],
     "webp": [
         '**/*.webp',
-        'cwebp input -o output -z 9 -m 6 -mt -pass 10 -q ' + QUALITY
+        'cwebp input -o output -z 9 -m 6 -mt -pass 10 -metadata all -q' +
+        QUALITY
     ]
 }
 
@@ -70,6 +73,7 @@ for filetype, options in optimizers.items():
 
     print(glob_opt)
     cli_opt = options[1]
+    print(cli_opt)
     files = glob.iglob(ORIGINAL_DIR + glob_opt, recursive=True)
     for each_file in files:
         print(each_file)
