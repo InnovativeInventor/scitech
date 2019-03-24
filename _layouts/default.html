@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.svg">
     
 <title>{{ page.title }} | {{site.name}}</title>
@@ -193,13 +194,13 @@ galite('send', 'pageview');
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                  Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-		 <a href="https://github.com/InnovativeInventor/"> 
+		 <a href="https://github.com/InnovativeInventor/" rel="noopener"> 
 			 <h5>Made by Maxwell Fan '21</h5>
 		 </a>
             </div>
 	    <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://github.com/innovativeinventor/scitech">Open source</a> with 
-		<a href="https://github.com/InnovativeInventor/scitech/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
+                <a rel="noopener" href="https://github.com/innovativeinventor/scitech">Open source</a> with 
+		<a rel="noopener" href="https://github.com/InnovativeInventor/scitech/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
 		<p>Total commits: {{site.git.total_commits}}<br>Last commit: <a href="https://github.com/InnovativeInventor/scitech/commit/{{site.git.last_commit.long_sha}}">{{site.git.last_commit.short_sha}}</a></p>
 	    </div>
         </div>
