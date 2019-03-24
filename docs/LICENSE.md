@@ -1,4 +1,4 @@
-All changes and modifications to the code (*excluding post content and Choate colors*) are released under the [MIT license](https://choosealicense.com/licenses/mit/):
+All changes and modifications to the code (*excluding post content, SciTECH logo, and Choate colors*) are released under the [MIT license](https://choosealicense.com/licenses/mit/):
 ```
 Copyright (c) 2019 Maxwell Fan 
 Permission is hereby granted, free of charge, to any person obtaining a copy
