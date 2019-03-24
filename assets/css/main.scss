@@ -218,8 +218,17 @@ License: https://www.wowthemes.net/freebies-license/
      background:transparent;
      color:green;
 }
+.navbar {
+     padding: 0rem 1rem !important;
+}
  .mediumnavigation .navbar-brand {
      font-weight:500;
+}
+
+ .mediumnavigation span.sitetitle {
+     font-family:Righteous;
+     font-display:swap;
+     font-size:2.5rem;
 }
  .mediumnavigation .dropdown-menu {
      border:1px solid rgba(0,0,0,0.08);
@@ -234,10 +243,10 @@ License: https://www.wowthemes.net/freebies-license/
      margin-top:3px;
      cursor:pointer;
 }
- .mediumnavigation .navbar-brand img {
-     max-height:30px;
-     margin-right:5px;
-}
+ //.mediumnavigation .navbar-brand img {
+     //max-height:30px;
+     //margin-right:5px;
+//}
  .mainheading h1.sitetitle {
      font-family:Righteous;
      font-display:swap;

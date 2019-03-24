@@ -9,7 +9,7 @@ import tqdm
 
 ORIGINAL_DIR = '/Users/max/git/scitech/docs-temp/'
 OUTPUT_DIR = '/Users/max/git/scitech/docs/'
-UPDATE = False
+UPDATE = True 
 QUALITY = '85'
 
 # You can edit as you wish. You need to install all of these first.
