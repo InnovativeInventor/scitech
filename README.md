@@ -24,7 +24,7 @@ To run `optimize.py` and `convert.py`, these need to be installed:
 Prolific contributors can add their name to the credits in the footer.
 
 ## License
-This website is based off **Mediumish for Jekyll**, developed by [Sal](https://www.wowthemes.net) and licensed under the MIT License.
+This website is heavily modified from **Mediumish for Jekyll**, which is developed by [Sal](https://www.wowthemes.net) and licensed under the MIT License.
 
 All changes are also licensed under the MIT License. 
 
