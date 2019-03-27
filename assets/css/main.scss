@@ -120,7 +120,7 @@ License: https://www.wowthemes.net/freebies-license/
      background-size:cover;
      height:100%;
      display:block;
-     background-position:38% 22% !important;
+     background-position:center !important;
      background-origin:border-box!important;
      border-top-left-radius: .25rem;
      border-bottom-left-radius: .25rem;
@@ -198,7 +198,10 @@ License: https://www.wowthemes.net/freebies-license/
      margin-left:3px;
      margin-right:3px;
 }
- .mediumnavigation .form-control {
+.feature-box {
+     padding-left: 0;
+}
+.mediumnavigation .form-control {
      font-size:0.8rem;
      border-radius:30px;
      overflow:hidden;

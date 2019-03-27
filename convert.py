@@ -28,10 +28,10 @@ for filetype, options in optimizers.items():
         base_filename = each_file.split('.')[0]
         print(base_filename)
         if not os.path.isfile(base_filename + ".webp"):
-            subprocess.run(convert + " " + each_file + " -quality "+ quality +" " +
-                           base_filename + ".webp", shell=True)
+            subprocess.run(convert + " " + each_file + " -quality "+
+                           str(quality) +" " + str(base_filename) + ".webp", shell=True)
 
         if not os.path.isfile(base_filename + ".jp2"):
-            subprocess.run(convert + " " + each_file + " -quality "+ quality +" " +
-                           base_filename + ".jp2", shell=True)
+            subprocess.run(convert + " " + each_file + " -quality "+
+                           str(quality) +" " + str(base_filename) + ".jp2", shell=True)
 

@@ -3,7 +3,7 @@
 
 <script>
 testWebP(function(support) {
-	support ? true : document.getElementById("{{ webpId }}").style.cssText = 'position:relative;{% if post.image %}background-image:url({{ post.image }});{% endif %}'
+	support ? true : document.getElementById("{{ webpId }}").style.cssText = 'position:relative;{% if post.image %}background-image:url({{ post.image }});background-position:center;background-repeat:no-repeat;background-attachment:fixed;{% endif %}'
 });
 </script>
 {% assign author = site.authors[post.author] %}
@@ -18,21 +18,21 @@ testWebP(function(support) {
 			{% if post.image %}
 			<span class="thumbnail d-block" id="{{ webpId }}" style="position:relative;{% if post.image contains "://" %}background-image:url({{ post.image }});{% else %}background-image:url({{ post.image | absolute_url }});background-image:url({{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp);{% endif %}">
 			{% endif %}
-				    <!--{% if post.image %} 
-		    <picture class="img-fluid">
-			 {% unless post.image contains "://" %}
-			<source type="image/webp" srcset="{{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp">
-			<source type="image/jp2" srcset="{{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.jp2">
-			{% endunless %}
-			<img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}"> 
-		    </picture>
-		{% endif %}-->
+		<!--{% if post.image %} -->
+		    <!--<picture class="img-fluid">-->
+			 <!--{% unless post.image contains "://" %}-->
+			<!--<source type="image/webp" srcset="{{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.webp">-->
+			<!--<source type="image/jp2" srcset="{{ post.image | absolute_url | replace:'.',' ' | truncatewords: 1 | remove:'...' }}.jp2">-->
+			<!--{% endunless %}-->
+			<!--<img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}"> -->
+		    <!--</picture>-->
+		<!--{% endif %}-->
                             </span>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 col-md-12">
+            <div class="feature-box col-lg-7 col-md-12">
                 <div class="h-100 card-group">
                     <div class="card">
                         <div class="card-body">
