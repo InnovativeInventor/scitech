@@ -4,7 +4,7 @@ title:  "Discovery of Superelastic Properties in Mammalian Epithelial Cells"
 author: "amanda_li_21"
 categories: [ cell, research ]
 image: assets/images/superelastic-cell-graphic.jpg
-featured: true
+featured: false
 ---
 
 In October 2018, Nature published a study titled “Active superelasticity in three-dimensional epithelia of controlled shape”[^2] which provided evidence for the appearance of cell superelasticity in mammalian epithelial cells upon undergoing extreme tension. Superelasticity, a property usually found in metallic alloys, is characterized by a cell’s ability to completely reverse large-scale deformations and elongate itself without increased force[^3][^4]. During this state, cells develop liquid-like properties and no longer become resistant to tension.

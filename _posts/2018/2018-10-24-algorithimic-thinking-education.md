@@ -5,7 +5,7 @@ author: "zhi_wei_gan_19"
 categories: [ education, compsci ]
 image: assets/images/computer-brain.jpg
 caption: "Image credit: [University of Edinburgh](https://www.blogs.hss.ed.ac.uk/crag/2016/05/15/think-like-programmer/)"
-featured: true
+featured: false
 ---
 Python is used as an introductory language for computer science classes in many schools. With its easily understandable syntax and compatibility with almost any computing environment, Python is the perfect language for new programmers. 
 

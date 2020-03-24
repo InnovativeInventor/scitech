@@ -1,8 +1,8 @@
 # Authors
 authors:
   max_fan_21:
-    name: "Max Fan \'21"
-    display_name: "Max Fan \'21"
+    name: "Max Fan '21"
+    display_name: "Max Fan '21"
     gravatar: 435ba55671f030daefb24624765ef3e8
     email: noreply@example.com
     web: https://ideas.homelabs.space
@@ -28,6 +28,14 @@ authors:
     name: "Anjali Mangla '20"
     display_name: "Anjali Mangla '20"
     gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  claire_fu_22:
+    name: "Claire Fu '21"
+    display_name: "Claire Fu '21"
+    gravatar: 
     email: noreply@example.com
     web:
     twitter:
@@ -80,4 +88,43 @@ authors:
     web:
     twitter:
     description: "Contributor"
-
+  henrik_torres_18:
+    name: "Henrik Torres '22"
+    display_name: "Henrik Torres '18"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  sophie_vulpe_22:
+    name: "Sophie Vulpe '22"
+    display_name: "Sophie Vulpe '22"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  max_connor_21:
+    name: "Max O'Connor '21"
+    display_name: "Max O'Connor '21"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  joy_an_23:
+    name: "Joy An '23"
+    display_name: "Joy An '23"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
+  ryan_kim_22:
+    name: "Ryan Kim '22"
+    display_name: "Ryan Kim '22"
+    gravatar:
+    email: noreply@example.com
+    web:
+    twitter:
+    description: "Contributor"
